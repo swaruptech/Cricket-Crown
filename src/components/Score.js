@@ -65,9 +65,9 @@ class Score extends Component {
     getMatchCart = () => {
         let score = this.getScore(this.state.detail.score);
         return (
-            <Card className={this.props.classes.cardstyle} style={{ marginTop: 20, width: 1100, height: 320 }}>
+            <Card className={this.props.classes.cardstyle} style={{ marginTop: 20, width: 1000,  height: 'auto' }}>
                 <Box className={this.props.classes.component}>
-                    <Typography style={{fontFamily: 'Serif', fontSize: '18px'}}>{this.props.match["team-1"]} vs {this.props.match["team-2"]}</Typography>
+                    <Typography style={{fontFamily: 'Serif', fontSize: '17px'}}>{this.props.match["team-1"]} vs {this.props.match["team-2"]}</Typography>
                     <Button onClick={() => this.getDetails(this.props.match.unique_id)} variant="contained" size="small" color="primary" style={{ marginLeft: 'auto', border: '1px solid #fff', fontFamily: 'Monospace', fontSize: '15px', backgroundColor: '#CC0000' }} disabled={this.props.match.matchStarted ? false : true}>Live Score</Button>
                 </Box>
                 <CardContent>
