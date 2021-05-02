@@ -64,7 +64,7 @@ class Score extends Component {
     getMatchCart = () => {
         let score = this.getScore(this.state.detail.score);
         return (
-            <div className="scoring">
+   
             <Card className={this.props.classes.cardstyle} style={{ marginTop: 20, width: 1000,  height: 'auto' }}>
                 <Box className={this.props.classes.component}>
                     <Typography style={{fontFamily: 'Serif', fontSize: '17px'}}>{this.props.match["team-1"]} vs {this.props.match["team-2"]}</Typography>
@@ -96,7 +96,7 @@ class Score extends Component {
                     </Grid>
                 </CardActions>
             </Card>
-            </div>
+            
         );
     }
 

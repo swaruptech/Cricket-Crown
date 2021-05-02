@@ -31,7 +31,7 @@
 @media only screen and (max-device-width: 480px) {
 
   .header {
-    height: 65px;
+    height: 60px;
     position: relative;
     font-size: 50000px;
     float: none;
@@ -40,7 +40,6 @@
 
   }
 
-  
 
 
 }
