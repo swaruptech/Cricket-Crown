@@ -10,8 +10,8 @@ import { amber } from '@material-ui/core/colors';
 class NavBar extends Component {
     render() {
         return (
-            <AppBar position="sticky" style={{backgroundColor:"#CC0000"}}>
-                <Toolbar>
+            <AppBar position="static" style={{backgroundColor:"#CC0000"}}>
+                <Toolbar className="header">
                     <IconButton
                         edge="start"
                         
@@ -21,12 +21,12 @@ class NavBar extends Component {
                         <MenuIcon />
                     </IconButton>
 
-                    <Grid container justify="center" alignItems="center">
+                    <Grid container justify="center" alignItems="center" >
                         <IconButton>
                             <SportsCricketIcon htmlColor="white"/>
                         </IconButton>
                         <Grid>
-                            <Typography style={{fontFamily: 'Serif', fontSize:"25px", letterSpacing: "8px", fontWeight: 'bold'}} >CRICKET CROWN</Typography>
+                            <Typography className="typo" style={{fontFamily: 'Serif', fontSize:"auto", letterSpacing: "auto ", fontWeight: 'bold'}} >CRICKET CROWN</Typography>
                         </Grid>
                         <IconButton>
                             <SportsCricketIcon htmlColor="white" />

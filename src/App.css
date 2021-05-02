@@ -10,6 +10,7 @@
   height: 120px;
   -webkit-animation: spin 2s linear infinite; /* Safari */
   animation: spin 2s linear infinite;
+  
 }
 
 /* Safari */
@@ -23,4 +24,23 @@
   100% { transform: rotate(360deg); }
 }
 
+.article {
+  float: none;
+  width: auto;
+}
+@media only screen and (max-device-width: 480px) {
 
+  .header {
+    height: 65px;
+    position: relative;
+    font-size: 50000px;
+    float: none;
+    width: 330px;
+    
+
+  }
+
+  
+
+
+}
